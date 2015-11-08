@@ -1,0 +1,4 @@
+<technique vs="LitVertexFetch" ps="LitVertexFetch" psdefines="DIFFMAP">
+    <pass name="litbase" vsdefines="NORMALMAP" psdefines="AMBIENT NORMALMAP" sm3="true" />
+    <pass name="light" vsdefines="NORMALMAP" psdefines="NORMALMAP" depthtest="equal" depthwrite="false" blend="add" />
+</technique>

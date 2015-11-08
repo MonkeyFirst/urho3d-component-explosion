@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<material>
+	<technique name="Techniques/DiffVertexFetch.xml" quality="0" loddistance="0" />
+	<texture unit="diffuse" name="Textures/boomRamp.png" />
+	<texture unit="normal" name="Textures/rgb-compose123.tga" />
+	<parameter name="UOffset" value="1 0 0 0" />
+	<parameter name="VOffset" value="0 1 0 0" />
+	<parameter name="MatDiffColor" value="1 1 1 1" />
+	<parameter name="MatEmissiveColor" value="0 0 0" />
+	<parameter name="MatEnvMapColor" value="1 1 1" />
+	<parameter name="MatSpecColor" value="0 0 0 0" />
+	<parameter name="ChannelFactor" value="1.0 0.0 0.0" />
+	<parameter name="Displacement" value="0.5" />
+	<parameter name="ClipRange" value="1.0" />
+	<parameter name="Range" value="0.01 0.5" />
+	<cull value="none" />
+	<shadowcull value="ccw" />
+	<depthbias constant="0" slopescaled="0" />
+</material>
