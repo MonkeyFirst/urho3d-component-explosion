@@ -89,7 +89,7 @@ void CustomLogic::FixedUpdate(float timeStep)
 	rgb.Normalize();
 	mat->SetShaderParameter("ChannelFactor", rgb);
 	
-	mat->SetShaderParameter("Displacement", d);
+	//mat->SetShaderParameter("Displacement", d);
 	
 	
 	//mat->SetShaderParameter("Range", Vector2(0.0f, 1.0f)); // control ramp texture color
